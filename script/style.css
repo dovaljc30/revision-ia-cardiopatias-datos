@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #wordcloud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 600px;
+  }
+  
+  #wordcloud svg {
+    background-color: #ffffff;
+  }
+  
+  #wordcloud text {
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  #wordcloud text:hover {
+    opacity: 0.7;
+  }
+  
